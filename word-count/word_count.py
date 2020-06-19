@@ -9,5 +9,4 @@ def count_words(phrase):
             counts[word] = counts[word] + 1
         except KeyError:
             counts[word] = 1
-
     return counts
