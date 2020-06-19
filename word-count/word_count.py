@@ -1,6 +1,5 @@
 
 import unittest
-
 def count_words(phrase):  
     counts = {}
     for word in ''.join(
